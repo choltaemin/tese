@@ -5,6 +5,9 @@
 
     /* border: 1px solid black; */
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
     display: block;
@@ -89,4 +92,51 @@ li{
     background-color:  white;
     color: black;
     cursor: pointer;
+}
+.about{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.about h2{
+    font-size: 30px;
+    color: rgb(28, 36, 116);
+}
+.about h1{
+    font-size: 50px;
+}
+.about .contents{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.about .left{
+    width: 400px;
+    height: 500px;
+}
+.about .right{
+    width: 800px;
+    height: 500px;
+}
+.about img{
+    width: 390px;
+    height: 490px; 
+}
+.about .right h3{
+    font-size: 22px;
+    color: blue;
+}
+.about .right li{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: #385998;
 }
